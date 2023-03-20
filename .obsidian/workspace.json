@@ -1,0 +1,219 @@
+{
+  "main": {
+    "id": "32b30a84b2dd1808",
+    "type": "split",
+    "children": [
+      {
+        "id": "5ae05491154735e9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2ccf07c0bfcee3a3",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e142a1047a51dea2",
+    "type": "split",
+    "children": [
+      {
+        "id": "4910a8dbac8be5f4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5a09b3f65de85ee6",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#JobRepository",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "426aa8afa1c91ad1",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "6852811a39c3aa69",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "e3cbc1dc8ff5f94c",
+    "type": "split",
+    "children": [
+      {
+        "id": "3f360e4e1ffc45e5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f1982a4821a6f6d4",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "568a43a8514cf890",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "2a1c1f49bd4345b6",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "e39dffe09d9c9b68",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "2f22147d278ba847",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [
+                    {
+                      "query": "tag:#java",
+                      "color": {
+                        "a": 1,
+                        "rgb": 14048348
+                      }
+                    }
+                  ],
+                  "collapse-display": true,
+                  "showArrow": true,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.655498353494692,
+                  "close": false
+                }
+              }
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 425.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:퀵 스위처 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 데일리 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false
+    }
+  },
+  "active": "2ccf07c0bfcee3a3",
+  "lastOpenFiles": [
+    "SpringBatch",
+    "0. InBox/Spring Batch 작업구성.md",
+    "0. InBox/쓰레드.md",
+    "0. InBox/프로세스.md",
+    "0. InBox/Spring Batch 자바 구성.md",
+    "0. InBox/Spring Batch 아키텍처.md",
+    "0. InBox/Spring Batch 작업 실행 가로채기.md",
+    "0. InBox/Spring Batch 재시작 가능성.md",
+    "0. InBox/Spring Batch JobParametersValidator.md",
+    "0. InBox/Spring Batch JobRepository 구성.md",
+    "0. InBox/Spring Batch JobRepository Transaction 구성.md",
+    "0. InBox/Spring Batch JobRepository 테이블 접두사 변경.md",
+    "0. InBox/Spring Batch JobRepository 리포지토리의 비표준 데이터베이스 유형.md",
+    "0. InBox/Spring Batch 상위 작업에서 상속.md",
+    "0. InBox/Spring Batch 사용 시나리오.md",
+    "0. InBox/Spring Batch 비즈니스 시나리오.md",
+    "0. InBox/Spring Batch 기술적 목표.md",
+    "0. InBox/Spring Batch.md",
+    "0. InBox/작업 구성.md",
+    "ImagePath/Pasted image 20230320092358.png",
+    "ImagePath",
+    "Template/zettelkasten.md",
+    "0. InBox/이미지.png.md",
+    "Obsidian.md",
+    "마크다운 메모 예시.md",
+    "0. InBox/Object 객체.md",
+    "0. InBox/UnCheckException.md",
+    "0. InBox/Exception.md",
+    "Template",
+    "1. 영구 Box",
+    "무제 폴더 1",
+    "0. InBox"
+  ]
+}

@@ -1,0 +1,17 @@
+### 날짜 : 2023-03-20 09:27
+### 주제 : Spring Batch작업구성
+---
+### 태그
+* #springbatch, #springbatch아키텍처, #springbatch작업구성 
+
+### 메모
+* 재시작 가능성
+* 작업 실행 가로채기
+* 상위 작업에서 상속
+* JobParametersValidator
+
+### 출처(참고문헌)
+-  https://docs.spring.io/spring-batch/docs/current/reference/html/job.html#configuringAJob
+
+### 연결문서
+- [[Spring Batch 아키텍처]]

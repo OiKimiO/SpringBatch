@@ -1,0 +1,77 @@
+### 날짜 : 2023-03-20 10:38
+### 주제 : Spring Batch 자바 구성
+---
+### 태그
+* #springbatch, #springbatch자바구성 , #springbatch작업구성 , #EnableBatchProcessing, #JobExplorer
+
+### 메모
+* @EnableBatchProcessing을 이용해 batch jobs의 기본 구성 사용
+	* 하나의 클래스에만 @EnableBatchProcessing를 사용할 것
+		* 이 구성에서만 Spring Batch작업 구성 기능 구현 가능 
+		
+	* 기본 구성 내 StepScope, JobScope 인스턴스가 생성되며, @Autowired가 가능한 여러 Bean들이 생성됨
+		* @JobRepository
+		* @JobLauncher
+		* @JobRegistry
+		* @JobExplorer
+		* @JobOperator
+		
+* batch처리를 위해 DataSource와 TransactionManager를 참조해야함
+	* DataSource와 TransactionManager는 @JobRepository와 @JobExplorer에서 사용 됨
+	* 사용 코드
+	```java
+	@Configuration 
+	@EnableBatchProcessing(dataSourceRef = "batchDataSource", 
+						   transactionManagerRef = "batchTransactionManager") 
+	public class MyJobConfiguration { 
+		@Bean 
+		public DataSource batchDataSource() { 
+			return new EmbeddedDatabaseBuilder()
+					.setType(EmbeddedDatabaseType.HSQL) 
+					.addScript("/org/springframework/batch/core/schema-hsqldb.sql") 
+					.generateUniqueName(true)
+					.build(); 
+		} 
+		
+		@Bean 
+		public JdbcTransactionManager batchTransactionManager(DataSource dataSource) { 
+			return new JdbcTransactionManager(dataSource); 
+		} 
+		
+		public Job job(JobRepository jobRepository) { 
+			return new JobBuilder("myJob", jobRepository)
+			//define job flow as needed 
+			.build(); 
+		} 
+	}
+	```
+* 위의 코드는 Spring Batch에 상황에 맞게 DB설정을 custom할 수 있음 
+	* batchDataSource는 Connection을 조회 할 DB를 설정하는 역할
+	* JdbcTransactionManager는 dataSource의 입력을 받아 조회된 Connection을 관리
+		* JdbcTransactionManager는 DBCP를 사용하여 Connection을 관리함
+
+* v5.0부터는 @EnableBatchProcessing이 아닌 DefaultBatchConfiguration를 상속받아 설정 파일을 구현할 수 있음
+```java
+@Configuration 
+class MyJobConfiguration extends DefaultBatchConfiguration { 
+	@Bean 
+	public Job job(JobRepository jobRepository) { 
+		return new JobBuilder("job", jobRepository) 
+			// define job flow as needed 
+			.build(); 
+		} 
+		
+	@Override 
+	protected Charset getCharset() { 
+		return StandardCharsets.ISO_8859_1; 
+	} 
+}
+```
+
+* @EnableBatchProcessing으로 구현하는 방식과  DefaultBatchConfiguration를 상속받는 설정 파일은 동시에 사용할 수 없음
+
+### 출처(참고문헌)
+-  https://docs.spring.io/spring-batch/docs/current/reference/html/job.html#javaConfig
+
+### 연결문서
+- [[Spring Batch 아키텍처]]
