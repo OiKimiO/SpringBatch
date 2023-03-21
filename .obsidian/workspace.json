@@ -4,47 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "5ae05491154735e9",
+        "id": "8ef19f1331b77081",
         "type": "tabs",
         "children": [
           {
-            "id": "2ccf07c0bfcee3a3",
+            "id": "fa57a5d9aed09baf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0. InBox/쓰레드.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a7c8d090ed484dc5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "0. InBox/Spring Batch JobLauncher 구성.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1a98449ab903a755",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "0. InBox/Spring Batch 작업 실행 가로채기.md",
+                "file": "0. InBox/Spring Batch 고급 메타데이터 사용.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -95,7 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 340.5
   },
   "right": {
     "id": "e3cbc1dc8ff5f94c",
@@ -111,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0. InBox/Spring Batch 작업 실행 가로채기.md",
+                "file": "0. InBox/Spring Batch 고급 메타데이터 사용.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "0. InBox/Spring Batch 작업 실행 가로채기.md",
+                "file": "0. InBox/Spring Batch 고급 메타데이터 사용.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "0. InBox/Spring Batch 작업 실행 가로채기.md"
+                "file": "0. InBox/Spring Batch 고급 메타데이터 사용.md"
               }
             }
           },
@@ -161,7 +136,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "0. InBox/Spring Batch 작업 실행 가로채기.md",
+                "file": "0. InBox/Spring Batch 고급 메타데이터 사용.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -192,7 +167,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.655498353494692,
+                  "scale": 0.6554983534946925,
                   "close": false
                 }
               }
@@ -203,7 +178,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 425.5
+    "width": 633.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -215,37 +190,40 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "1a98449ab903a755",
+  "active": "fa57a5d9aed09baf",
   "lastOpenFiles": [
-    "0. InBox/Spring Batch 기술적 목표.md",
-    "0. InBox/프로세스.md",
-    "0. InBox/쓰레드.md",
-    "0. InBox/레지스트리.md",
-    "0. InBox/Spring Batch 비즈니스 시나리오.md",
-    "0. InBox/Spring Batch.md",
-    "0. InBox/Spring Batch JobRepository Transaction 구성.md",
+    "0. InBox/Spring Batch Job Web Container에서 실행.md",
+    "0. InBox/Spring Batch Job 실행.md",
+    "0. InBox/Spring Batch JobLauncher 구성.md",
     "0. InBox/Spring Batch JobRepository 구성.md",
     "0. InBox/Spring Batch 자바 구성.md",
+    "0. InBox/Spring Batch.md",
+    "0. InBox/Spring Batch JobRegistry.md",
+    "0. InBox/Spring Batch JobParametersIncrementer.md",
+    "0. InBox/Spring Batch JobOperator.md",
+    "0. InBox/Spring Batch JobParametersValidator.md",
+    "0. InBox/Spring Batch 작업 실행 가로채기.md",
     "0. InBox/Spring Batch 아키텍처.md",
     "0. InBox/Spring Batch 사용 시나리오.md",
-    "0. InBox/Spring Batch 상위 작업에서 상속.md",
-    "0. InBox/Spring Batch 작업 실행 가로채기.md",
-    "0. InBox/Spring Batch JobParametersValidator.md",
-    "0. InBox/Spring Batch JobLauncher 구성.md",
-    "0. InBox/Spring Batch 재시작 가능성.md",
-    "0. InBox/Spring Batch 작업구성.md",
+    "0. InBox/Spring Batch 비즈니스 시나리오.md",
+    "0. InBox/Spring Batch 기술적 목표.md",
+    "0. InBox/Spring Batch 고급 메타데이터 사용.md",
+    "0. InBox/Spring Batch Aborting a Job.md",
+    "0. InBox/Spring Batch Stopping a Job.md",
+    "0. InBox/무제 파일.md",
+    "0. InBox/Spring Batch Context.md",
+    "0. InBox/Spring Batch AutomaticJobRegistrar.md",
+    "0. InBox/Spring Batch JobRegistryBeanPostProcessor.md",
+    "0. InBox/Spring Batch Querying the Repository.md",
     "0. InBox/Spring Batch JobRepository 리포지토리의 비표준 데이터베이스 유형.md",
+    "0. InBox/Spring Batch JobRepository Transaction 구성.md",
     "0. InBox/Spring Batch JobRepository 테이블 접두사 변경.md",
+    "ImagePath/Pasted image 20230321091922.png",
+    "ImagePath/Pasted image 20230321143948.png",
+    "ImagePath/Pasted image 20230321091741.png",
     "SpringBatch",
-    "0. InBox/작업 구성.md",
     "ImagePath/Pasted image 20230320092358.png",
     "ImagePath",
-    "Template/zettelkasten.md",
-    "0. InBox/이미지.png.md",
-    "Obsidian.md",
-    "마크다운 메모 예시.md",
-    "0. InBox/Object 객체.md",
-    "0. InBox/UnCheckException.md",
     "Template",
     "1. 영구 Box",
     "무제 폴더 1",
