@@ -2,7 +2,7 @@
 ### 주제 : Spring Batch JobRepository에 대한 Transaction 구성
 ---
 ### 태그
-* #springbatch, #springbatch자바구성 , #JobRepository, #transaction, #proxy
+* #springbatch, #springbatch자바구성 , #JobRepository, #transaction, #proxy, #Process , #Thread 
 
 ### 메모
 * 네임스페이스나 FactoryBean을 이용해 Repository 생성

@@ -2,7 +2,7 @@
 ### 주제 : Spring Batch 비즈니스 시나리오
 ---
 ### 태그
-* #springbatch , #springbatch사용 , #springbatch비즈니스, #springbatch시나리오 
+* #springbatch , #springbatch사용 , #springbatch비즈니스, #springbatch시나리오, #Process 
 
 ### 메모
 * Spring Batch가 지원하는 비즈니스 시나리오
