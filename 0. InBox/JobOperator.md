@@ -11,4 +11,4 @@
 -  https://docs.spring.io/spring-batch/docs/current/reference/html/job.html#JobOperator
 
 ### 연결문서
-- [[Spring Batch 고급 메타데이터 사용]]
+- [[고급 메타데이터 사용]]

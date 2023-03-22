@@ -19,4 +19,4 @@
 -  https://docs.spring.io/spring-batch/docs/current/reference/html/job.html#runningAJob
 
 ### 연결문서
-- [[Spring Batch JobLauncher 구성]]
+- [[JobLauncher 구성]]

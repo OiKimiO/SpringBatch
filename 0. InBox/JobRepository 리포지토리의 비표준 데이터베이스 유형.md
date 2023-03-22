@@ -24,4 +24,4 @@ public JobRepository jobRepository() throws Exception {
 -  https://docs.spring.io/spring-batch/docs/current/reference/html/job.html#nonStandardDatabaseTypesInRepository
 
 ### 연결문서
-- [[Spring Batch JobRepository 구성]]
+- [[JobRepository 구성]]

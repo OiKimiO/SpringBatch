@@ -30,4 +30,4 @@
 -  https://docs.spring.io/spring-batch/docs/current/reference/html/job.html#configuringJobRepository
 
 ### 연결문서
-- [[Spring Batch 자바 구성]]
+- [[자바 구성]]

@@ -13,4 +13,4 @@
 -  https://docs.spring.io/spring-batch/docs/current/reference/html/job.html#jobparametersvalidator
 
 ### 연결문서
-- [[Spring Batch 작업구성]]
+- [[작업구성]]

@@ -11,11 +11,60 @@
             "id": "fa57a5d9aed09baf",
             "type": "leaf",
             "state": {
-              "type": "graph",
+              "type": "markdown",
+              "state": {
+                "file": "0. InBox/JobLauncher 구성.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0a96b37638e3c8e0",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
               "state": {}
             }
+          },
+          {
+            "id": "3de78b7de773ac75",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "0. InBox/ManagedType에서 ID를 찾을 수 없음.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "77354e9f37cb7d37",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "0. InBox/Querying the Repository.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "dc93159d25e6f21b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "0. InBox/trOrdersProcessor 클래스가 중복 등록됨.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -66,7 +115,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 340.5
+    "width": 355.5
   },
   "right": {
     "id": "e3cbc1dc8ff5f94c",
@@ -82,6 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "0. InBox/trOrdersProcessor 클래스가 중복 등록됨.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,6 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "0. InBox/trOrdersProcessor 클래스가 중복 등록됨.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +170,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "0. InBox/trOrdersProcessor 클래스가 중복 등록됨.md"
+              }
             }
           },
           {
@@ -128,10 +181,11 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "0. InBox/trOrdersProcessor 클래스가 중복 등록됨.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
-                  "localJumps": 1,
+                  "localJumps": 2,
                   "localBacklinks": true,
                   "localForelinks": true,
                   "localInterlinks": false,
@@ -169,7 +223,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 633.5
+    "width": 392.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -181,34 +235,34 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "fa57a5d9aed09baf",
+  "active": "dc93159d25e6f21b",
   "lastOpenFiles": [
-    "0. InBox/Spring Batch 아키텍처.md",
-    "0. InBox/Spring Batch 상위 작업에서 상속.md",
-    "0. InBox/Spring Batch 사용 시나리오.md",
-    "0. InBox/Spring Batch 비즈니스 시나리오.md",
-    "0. InBox/Spring Batch 기술적 목표.md",
-    "0. InBox/Spring Batch 고급 메타데이터 사용.md",
+    "0. InBox/Querying the Repository.md",
+    "0. InBox/trOrdersProcessor 클래스가 중복 등록됨.md",
+    "0. InBox/ManagedType에서 ID를 찾을 수 없음.md",
+    "0. InBox/JobRepository Transaction 구성.md",
+    "0. InBox/JobRepository 리포지토리의 비표준 데이터베이스 유형.md",
+    "0. InBox/Stopping a Job.md",
     "0. InBox/Spring Batch.md",
+    "0. InBox/JobRepository 테이블 접두사 변경.md",
+    "0. InBox/JobRepository 구성.md",
+    "0. InBox/JobRegistryBeanPostProcessor.md",
+    "0. InBox/JobRegistry.md",
+    "0. InBox/JobParametersValidator.md",
+    "0. InBox/AutomaticJobRegistrar.md",
+    "0. InBox/Aborting a Job.md",
     "0. InBox/프로세스.md",
-    "0. InBox/Spring Batch Stopping a Job.md",
-    "0. InBox/Spring Batch Querying the Repository.md",
-    "0. InBox/Spring Batch JobRepository Transaction 구성.md",
-    "0. InBox/Spring Batch JobRepository 리포지토리의 비표준 데이터베이스 유형.md",
-    "0. InBox/Spring Batch JobRepository 구성.md",
-    "0. InBox/Spring Batch JobRegistryBeanPostProcessor.md",
-    "0. InBox/Spring Batch JobLauncher 구성.md",
-    "0. InBox/Spring Batch JobOperator.md",
-    "0. InBox/Spring Batch JobParametersIncrementer.md",
-    "0. InBox/Spring Batch JobParametersValidator.md",
-    "0. InBox/Spring Batch JobRegistry.md",
-    "0. InBox/Spring Batch Job Web Container에서 실행.md",
-    "0. InBox/Spring Batch Job 실행.md",
-    "0. InBox/Spring Batch 자바 구성.md",
-    "0. InBox/Spring Batch 작업 실행 가로채기.md",
-    "0. InBox/Spring Batch Aborting a Job.md",
-    "0. InBox/무제 파일.md",
-    "0. InBox/Spring Batch Context.md",
+    "0. InBox/재시작 가능성.md",
+    "0. InBox/작업 실행 가로채기.md",
+    "0. InBox/쓰레드.md",
+    "0. InBox/상위 작업에서 상속.md",
+    "0. InBox/비즈니스 시나리오.md",
+    "0. InBox/레지스트리.md",
+    "0. InBox/기술적 목표.md",
+    "0. InBox/JobParametersIncrementer.md",
+    "0. InBox/JobOperator.md",
+    "0. InBox/JobLauncher 구성.md",
+    "0. InBox/Job Web Container에서 실행.md",
     "ImagePath/Pasted image 20230321091922.png",
     "ImagePath/Pasted image 20230321143948.png",
     "ImagePath/Pasted image 20230321091741.png",

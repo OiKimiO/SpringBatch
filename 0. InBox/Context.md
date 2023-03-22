@@ -12,4 +12,4 @@
 -  빙챗 - JobRegistry에서 사용되는 Context는 무엇인지?
 
 ### 연결문서
-- [[Spring Batch JobRegistry]]
+- [[JobRegistry]]

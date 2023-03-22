@@ -11,6 +11,7 @@
 		* JobRegistry는 JobLauncher의 필수 의존성이기에 먼저 직접 설정하는 방법에 대해 설명하고자 함
 
 	* JobLauncher는 Job을 실행하기 위한 Interface임
+		* 동기/비동기 작업에서 반환할 수 있는 상태값은 COMPLETED, FAILED, UNKWOWN임
 	* JobLauncher의 구현체는 SimpleJobLauncher임
 		* JobRepository를 통해 JobExcution을 가져오고 TaskExecutor를 통해 Job을 실행
 		* SimpleJobLauncher는 동기 작업을 기본으로 봄
@@ -26,4 +27,4 @@
 -  https://docs.spring.io/spring-batch/docs/current/reference/html/job.html#configuringJobLauncher
 
 ### 연결문서
-- [[Spring Batch JobRepository 구성]]
+- [[JobRepository 구성]]

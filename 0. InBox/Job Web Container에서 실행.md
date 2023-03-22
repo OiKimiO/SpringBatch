@@ -17,5 +17,5 @@
 -  https://docs.spring.io/spring-batch/docs/current/reference/html/job.html#runningJobsFromWebContainer
 
 ### 연결문서
-- [[Spring Batch Job 실행]]
-- [[Spring Batch 재시작 가능성]]
+- [[Job 실행]]
+- [[재시작 가능성]]

@@ -11,4 +11,4 @@
 -  https://docs.spring.io/spring-batch/docs/current/reference/html/job.html#jobregistrybeanpostprocessor
 
 ### 연결문서
-- [[Spring Batch JobRegistry]]
+- [[JobRegistry]]

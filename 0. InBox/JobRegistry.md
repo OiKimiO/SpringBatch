@@ -14,4 +14,4 @@
 -  빙챗 - JobRegistry는 Job에 대한 기본정보를 가지고 있는건가?
 
 ### 연결문서
-- [[Spring Batch JobLauncher 구성]]
+- [[JobLauncher 구성]]
