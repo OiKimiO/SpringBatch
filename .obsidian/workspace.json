@@ -4,22 +4,71 @@
     "type": "split",
     "children": [
       {
-        "id": "52c4cbdcade77b8b",
+        "id": "72b6a2c65c3d8397",
         "type": "tabs",
         "children": [
           {
-            "id": "ccc2d44137c51852",
+            "id": "25805a94f351dd8c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring Batch-Reference/02. Technology Study/구성과 Job실행/고급 메타데이터 사용.md",
+                "file": "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/02. Technology Study/섹션1. 스프링 배치 소개/3. 배치 시나리오.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "75c6e2caf741f765",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/02. Technology Study/섹션1. 스프링 배치 소개/4. 스프링 배치-아키텍처.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f517883950cef1a3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/02. Technology Study/섹션2. 스프링 배치 시작/1. 프로젝트 구성 및 의존성 설정.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "47a138a8a036a5d7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/02. Technology Study/섹션2. 스프링 배치 시작/2. Hello Spring Batch 시작하기.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "47dc1916ce593f8f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/02. Technology Study/섹션2. 스프링 배치 시작/1. 프로젝트 구성 및 의존성 설정.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -69,7 +118,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "bd4f3f1e101ef5ca",
@@ -85,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring Batch-Reference/02. Technology Study/구성과 Job실행/고급 메타데이터 사용.md",
+                "file": "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/02. Technology Study/섹션2. 스프링 배치 시작/1. 프로젝트 구성 및 의존성 설정.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring Batch-Reference/02. Technology Study/구성과 Job실행/고급 메타데이터 사용.md",
+                "file": "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/02. Technology Study/섹션2. 스프링 배치 시작/1. 프로젝트 구성 및 의존성 설정.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring Batch-Reference/02. Technology Study/구성과 Job실행/고급 메타데이터 사용.md"
+                "file": "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/02. Technology Study/섹션2. 스프링 배치 시작/1. 프로젝트 구성 및 의존성 설정.md"
               }
             }
           }
@@ -146,19 +195,32 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "ccc2d44137c51852",
+  "active": "47dc1916ce593f8f",
   "lastOpenFiles": [
+    "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/01. Project Source/springbatchlecture/src/test/java/io/springbatch/springbatchlecture/SpringbatchlectureApplicationTests.java",
+    "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/01. Project Source/springbatchlecture/src/main/java/io/springbatch/springbatchlecture/SpringbatchlectureApplication.java",
+    "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/01. Project Source/springbatchlecture/src/test/java/io/springbatch/springbatchlecture",
+    "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/01. Project Source/springbatchlecture/src/test/java/io/springbatch",
+    "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/01. Project Source/springbatchlecture/src/main/java/io/springbatch/springbatchlecture",
+    "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/01. Project Source/springbatchlecture/src/main/java/io/springbatch",
+    "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/01. Project Source/springbatchlecture/src/test/java/io",
+    "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/01. Project Source/springbatchlecture/src/main/resources/application.properties",
+    "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/01. Project Source/springbatchlecture/src/main/java/io",
+    "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/01. Project Source/springbatchlecture/src/test/java",
+    "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/01. Project Source/springbatchlecture/src/main/resources",
+    "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/01. Project Source/springbatchlecture/HELP.md",
+    "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/01. Project Source/spring-batch/HELP.md",
+    "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/02. Technology Study/섹션2. 스프링 배치 시작/3. DB 스키마 생성 및 이해.md",
+    "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/02. Technology Study/섹션2. 스프링 배치 시작/2. Hello Spring Batch 시작하기.md",
+    "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/02. Technology Study/섹션2. 스프링 배치 시작/1. 프로젝트 구성 및 의존성 설정.md",
+    "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/02. Technology Study/섹션1. 스프링 배치 소개/4. 스프링 배치-아키텍처.md",
+    "Pasted image 20230329101208.png",
+    "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/02. Technology Study/섹션1. 스프링 배치 소개/3. 배치 시나리오.md",
+    "Spring Batch-Reference/02. Technology Study/구성과 Job실행/고급 메타데이터 사용.md",
+    "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/02. Technology Study/섹션1. 스프링 배치 소개/2. 배치 핵심 패턴.md",
+    "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/02. Technology Study/섹션1. 스프링 배치 소개/1. 스프링 배치 탄생 배경.md",
+    "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/02. Technology Study/섹션0. 강좌 소개/개발 환경 및 선수 지식.md",
     "예제로 배우는 핵심 Spring Batch/02. Technology Study/무제 파일 1.md",
-    "예제로 배우는 핵심 Spring Batch/01. Project Source/SpringBatchTutorial/bin/main/com/example/SpringBatchTutorial/job/validateParam/validator/FileParamValidator.class",
-    "예제로 배우는 핵심 Spring Batch/01. Project Source/SpringBatchTutorial/bin/main/com/example/SpringBatchTutorial/job/validateParam/ValidatedParamJobConfig$1.class",
-    "예제로 배우는 핵심 Spring Batch/01. Project Source/SpringBatchTutorial/bin/main/com/example/SpringBatchTutorial/job/validateParam/ValidatedParamJobConfig.class",
-    "예제로 배우는 핵심 Spring Batch/01. Project Source/SpringBatchTutorial/bin/main/com/example/SpringBatchTutorial/job/MultipleStep/MultipleStepJobConfig.class",
-    "예제로 배우는 핵심 Spring Batch/01. Project Source/SpringBatchTutorial/bin/main/com/example/SpringBatchTutorial/job/HelloWorld/HelloWorldJobConfig$1.class",
-    "예제로 배우는 핵심 Spring Batch/01. Project Source/SpringBatchTutorial/bin/main/com/example/SpringBatchTutorial/job/FileDataReadWrite/PlayerFieldSetMapper.class",
-    "예제로 배우는 핵심 Spring Batch/01. Project Source/SpringBatchTutorial/bin/main/com/example/SpringBatchTutorial/job/FileDataReadWrite/FileDataReadWriteConfig.class",
-    "예제로 배우는 핵심 Spring Batch/01. Project Source/SpringBatchTutorial/bin/main/com/example/SpringBatchTutorial/job/FileDataReadWrite/FileDataReadWriteConfig$1.class",
-    "예제로 배우는 핵심 Spring Batch/01. Project Source/SpringBatchTutorial/bin/main/com/example/SpringBatchTutorial/job/DbDataReadWrite/TrMigrationConfig$2.class",
-    "예제로 배우는 핵심 Spring Batch/01. Project Source/SpringBatchTutorial/bin/main/com/example/SpringBatchTutorial/job/DbDataReadWrite/TrMigrationConfig.class",
     "무제 파일.md",
     "예제로 배우는 핵심 Spring Batch/03. Trouble Shooting/trOrdersProcessor 클래스가 중복 등록됨.md",
     "예제로 배우는 핵심 Spring Batch/03. Trouble Shooting/ManagedType에서 ID를 찾을 수 없음.md",
@@ -172,17 +234,6 @@
     "Spring Batch-Reference/02. Technology Study/구성과 Job실행/작업구성.md",
     "Spring Batch-Reference/02. Technology Study/구성과 Job실행/작업 실행 가로채기.md",
     "Spring Batch-Reference/02. Technology Study/구성과 Job실행/자바 구성.md",
-    "Spring Batch-Reference/02. Technology Study/구성과 Job실행/아키텍처.md",
-    "Spring Batch-Reference/02. Technology Study/구성과 Job실행/상위 작업에서 상속.md",
-    "Spring Batch-Reference/02. Technology Study/구성과 Job실행/고급 메타데이터 사용.md",
-    "Spring Batch-Reference/02. Technology Study/구성과 Job실행/JobRepository 테이블 접두사 변경.md",
-    "Spring Batch-Reference/02. Technology Study/구성과 Job실행/JobRepository Transaction 구성.md",
-    "Spring Batch-Reference/02. Technology Study/구성과 Job실행/Querying the Repository.md",
-    "Spring Batch-Reference/02. Technology Study/구성과 Job실행/Stopping a Job.md",
-    "Spring Batch-Reference/02. Technology Study/구성과 Job실행/JobRepository 리포지토리의 비표준 데이터베이스 유형.md",
-    "Spring Batch-Reference/02. Technology Study/구성과 Job실행/JobParametersIncrementer.md",
-    "Spring Batch-Reference/02. Technology Study/구성과 Job실행/JobOperator.md",
-    "Spring Batch-Reference/02. Technology Study/구성과 Job실행/JobLauncher 구성.md",
     "Spring Batch-Reference/04. Image Path/Pasted image 20230320092358.png",
     "Spring Batch-Reference/04. Image Path/Pasted image 20230321143948.png",
     "Spring Batch-Reference/04. Image Path/Pasted image 20230321091922.png",
