@@ -1,89 +1,54 @@
 {
   "main": {
-    "id": "32b30a84b2dd1808",
+    "id": "53e96adabd9188dc",
     "type": "split",
     "children": [
       {
-        "id": "8ef19f1331b77081",
+        "id": "52c4cbdcade77b8b",
         "type": "tabs",
         "children": [
           {
-            "id": "fa57a5d9aed09baf",
+            "id": "ccc2d44137c51852",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0. InBox/JobLauncher 구성.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0a96b37638e3c8e0",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "3de78b7de773ac75",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "0. InBox/ManagedType에서 ID를 찾을 수 없음.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "77354e9f37cb7d37",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "0. InBox/Querying the Repository.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "dc93159d25e6f21b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "0. InBox/trOrdersProcessor 클래스가 중복 등록됨.md",
+                "file": "Spring Batch-Reference/02. Technology Study/구성과 Job실행/고급 메타데이터 사용.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "e142a1047a51dea2",
+    "id": "e65fe5fc49c0d5a1",
     "type": "split",
     "children": [
       {
-        "id": "4910a8dbac8be5f4",
+        "id": "52983a7e5d573d51",
         "type": "tabs",
         "children": [
           {
-            "id": "5a09b3f65de85ee6",
+            "id": "c1db982963e8fa83",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "d4b8f826a83f0cc7",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Thread",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -93,45 +58,34 @@
             }
           },
           {
-            "id": "426aa8afa1c91ad1",
+            "id": "47ab4bff6c049bc6",
             "type": "leaf",
             "state": {
               "type": "starred",
               "state": {}
             }
-          },
-          {
-            "id": "6852811a39c3aa69",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical"
-              }
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 355.5
+    "width": 300
   },
   "right": {
-    "id": "e3cbc1dc8ff5f94c",
+    "id": "bd4f3f1e101ef5ca",
     "type": "split",
     "children": [
       {
-        "id": "3f360e4e1ffc45e5",
+        "id": "a03d8ba0ad3d68c4",
         "type": "tabs",
         "children": [
           {
-            "id": "f1982a4821a6f6d4",
+            "id": "32810843456e9ee6",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0. InBox/trOrdersProcessor 클래스가 중복 등록됨.md",
+                "file": "Spring Batch-Reference/02. Technology Study/구성과 Job실행/고급 메타데이터 사용.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,19 +97,19 @@
             }
           },
           {
-            "id": "568a43a8514cf890",
+            "id": "00af44e3513197c6",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "0. InBox/trOrdersProcessor 클래스가 중복 등록됨.md",
+                "file": "Spring Batch-Reference/02. Technology Study/구성과 Job실행/고급 메타데이터 사용.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "2a1c1f49bd4345b6",
+            "id": "d554d1fb27344c3b",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -166,64 +120,21 @@
             }
           },
           {
-            "id": "e39dffe09d9c9b68",
+            "id": "b56e85d6d5b98c3d",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "0. InBox/trOrdersProcessor 클래스가 중복 등록됨.md"
-              }
-            }
-          },
-          {
-            "id": "2f22147d278ba847",
-            "type": "leaf",
-            "state": {
-              "type": "localgraph",
-              "state": {
-                "file": "0. InBox/trOrdersProcessor 클래스가 중복 등록됨.md",
-                "options": {
-                  "collapse-filter": true,
-                  "search": "",
-                  "localJumps": 2,
-                  "localBacklinks": true,
-                  "localForelinks": true,
-                  "localInterlinks": false,
-                  "showTags": false,
-                  "showAttachments": false,
-                  "hideUnresolved": false,
-                  "collapse-color-groups": true,
-                  "colorGroups": [
-                    {
-                      "query": "tag:#java",
-                      "color": {
-                        "a": 1,
-                        "rgb": 14048348
-                      }
-                    }
-                  ],
-                  "collapse-display": true,
-                  "showArrow": true,
-                  "textFadeMultiplier": 0,
-                  "nodeSizeMultiplier": 1,
-                  "lineSizeMultiplier": 1,
-                  "collapse-forces": true,
-                  "centerStrength": 0.518713248970312,
-                  "repelStrength": 10,
-                  "linkStrength": 1,
-                  "linkDistance": 250,
-                  "scale": 0.6554983534946925,
-                  "close": false
-                }
+                "file": "Spring Batch-Reference/02. Technology Study/구성과 Job실행/고급 메타데이터 사용.md"
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 392.5
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -235,43 +146,46 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "dc93159d25e6f21b",
+  "active": "ccc2d44137c51852",
   "lastOpenFiles": [
-    "0. InBox/Querying the Repository.md",
-    "0. InBox/trOrdersProcessor 클래스가 중복 등록됨.md",
-    "0. InBox/ManagedType에서 ID를 찾을 수 없음.md",
-    "0. InBox/JobRepository Transaction 구성.md",
-    "0. InBox/JobRepository 리포지토리의 비표준 데이터베이스 유형.md",
-    "0. InBox/Stopping a Job.md",
-    "0. InBox/Spring Batch.md",
-    "0. InBox/JobRepository 테이블 접두사 변경.md",
-    "0. InBox/JobRepository 구성.md",
-    "0. InBox/JobRegistryBeanPostProcessor.md",
-    "0. InBox/JobRegistry.md",
-    "0. InBox/JobParametersValidator.md",
-    "0. InBox/AutomaticJobRegistrar.md",
-    "0. InBox/Aborting a Job.md",
-    "0. InBox/프로세스.md",
-    "0. InBox/재시작 가능성.md",
-    "0. InBox/작업 실행 가로채기.md",
-    "0. InBox/쓰레드.md",
-    "0. InBox/상위 작업에서 상속.md",
-    "0. InBox/비즈니스 시나리오.md",
-    "0. InBox/레지스트리.md",
-    "0. InBox/기술적 목표.md",
-    "0. InBox/JobParametersIncrementer.md",
-    "0. InBox/JobOperator.md",
-    "0. InBox/JobLauncher 구성.md",
-    "0. InBox/Job Web Container에서 실행.md",
-    "ImagePath/Pasted image 20230321091922.png",
-    "ImagePath/Pasted image 20230321143948.png",
-    "ImagePath/Pasted image 20230321091741.png",
-    "SpringBatch",
-    "ImagePath/Pasted image 20230320092358.png",
-    "ImagePath",
-    "Template",
-    "1. 영구 Box",
-    "무제 폴더 1",
-    "0. InBox"
+    "예제로 배우는 핵심 Spring Batch/02. Technology Study/무제 파일 1.md",
+    "예제로 배우는 핵심 Spring Batch/01. Project Source/SpringBatchTutorial/bin/main/com/example/SpringBatchTutorial/job/validateParam/validator/FileParamValidator.class",
+    "예제로 배우는 핵심 Spring Batch/01. Project Source/SpringBatchTutorial/bin/main/com/example/SpringBatchTutorial/job/validateParam/ValidatedParamJobConfig$1.class",
+    "예제로 배우는 핵심 Spring Batch/01. Project Source/SpringBatchTutorial/bin/main/com/example/SpringBatchTutorial/job/validateParam/ValidatedParamJobConfig.class",
+    "예제로 배우는 핵심 Spring Batch/01. Project Source/SpringBatchTutorial/bin/main/com/example/SpringBatchTutorial/job/MultipleStep/MultipleStepJobConfig.class",
+    "예제로 배우는 핵심 Spring Batch/01. Project Source/SpringBatchTutorial/bin/main/com/example/SpringBatchTutorial/job/HelloWorld/HelloWorldJobConfig$1.class",
+    "예제로 배우는 핵심 Spring Batch/01. Project Source/SpringBatchTutorial/bin/main/com/example/SpringBatchTutorial/job/FileDataReadWrite/PlayerFieldSetMapper.class",
+    "예제로 배우는 핵심 Spring Batch/01. Project Source/SpringBatchTutorial/bin/main/com/example/SpringBatchTutorial/job/FileDataReadWrite/FileDataReadWriteConfig.class",
+    "예제로 배우는 핵심 Spring Batch/01. Project Source/SpringBatchTutorial/bin/main/com/example/SpringBatchTutorial/job/FileDataReadWrite/FileDataReadWriteConfig$1.class",
+    "예제로 배우는 핵심 Spring Batch/01. Project Source/SpringBatchTutorial/bin/main/com/example/SpringBatchTutorial/job/DbDataReadWrite/TrMigrationConfig$2.class",
+    "예제로 배우는 핵심 Spring Batch/01. Project Source/SpringBatchTutorial/bin/main/com/example/SpringBatchTutorial/job/DbDataReadWrite/TrMigrationConfig.class",
+    "무제 파일.md",
+    "예제로 배우는 핵심 Spring Batch/03. Trouble Shooting/trOrdersProcessor 클래스가 중복 등록됨.md",
+    "예제로 배우는 핵심 Spring Batch/03. Trouble Shooting/ManagedType에서 ID를 찾을 수 없음.md",
+    "Spring Batch-Reference/02. Technology Study/구성과 Job실행/Job 실행.md",
+    "Spring Batch-Reference/02. Technology Study/구성과 Job실행/Job Web Container에서 실행.md",
+    "Spring Batch-Reference/02. Technology Study/구성과 Job실행/Context.md",
+    "Spring Batch-Reference/02. Technology Study/구성과 Job실행/AutomaticJobRegistrar.md",
+    "Spring Batch-Reference/02. Technology Study/구성과 Job실행/Aborting a Job.md",
+    "Spring Batch-Reference/02. Technology Study/구성과 Job실행/파라미터의 타입 문제.md",
+    "Spring Batch-Reference/02. Technology Study/구성과 Job실행/재시작 가능성.md",
+    "Spring Batch-Reference/02. Technology Study/구성과 Job실행/작업구성.md",
+    "Spring Batch-Reference/02. Technology Study/구성과 Job실행/작업 실행 가로채기.md",
+    "Spring Batch-Reference/02. Technology Study/구성과 Job실행/자바 구성.md",
+    "Spring Batch-Reference/02. Technology Study/구성과 Job실행/아키텍처.md",
+    "Spring Batch-Reference/02. Technology Study/구성과 Job실행/상위 작업에서 상속.md",
+    "Spring Batch-Reference/02. Technology Study/구성과 Job실행/고급 메타데이터 사용.md",
+    "Spring Batch-Reference/02. Technology Study/구성과 Job실행/JobRepository 테이블 접두사 변경.md",
+    "Spring Batch-Reference/02. Technology Study/구성과 Job실행/JobRepository Transaction 구성.md",
+    "Spring Batch-Reference/02. Technology Study/구성과 Job실행/Querying the Repository.md",
+    "Spring Batch-Reference/02. Technology Study/구성과 Job실행/Stopping a Job.md",
+    "Spring Batch-Reference/02. Technology Study/구성과 Job실행/JobRepository 리포지토리의 비표준 데이터베이스 유형.md",
+    "Spring Batch-Reference/02. Technology Study/구성과 Job실행/JobParametersIncrementer.md",
+    "Spring Batch-Reference/02. Technology Study/구성과 Job실행/JobOperator.md",
+    "Spring Batch-Reference/02. Technology Study/구성과 Job실행/JobLauncher 구성.md",
+    "Spring Batch-Reference/04. Image Path/Pasted image 20230320092358.png",
+    "Spring Batch-Reference/04. Image Path/Pasted image 20230321143948.png",
+    "Spring Batch-Reference/04. Image Path/Pasted image 20230321091922.png",
+    "Spring Batch-Reference/04. Image Path/Pasted image 20230321091741.png"
   ]
 }
