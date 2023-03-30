@@ -5,7 +5,7 @@ spring:
 ---
 spring:
   config:
-    active:
+    activate:
       on-profile: local
   datasource:
     hikari:
@@ -20,7 +20,7 @@ spring:
 
 spring:
   config:
-    active:
+    activate:
       on-profile: mysql
   datasource:
     hikari:

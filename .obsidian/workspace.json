@@ -146,8 +146,11 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "4ee4810c288ee366",
+  "active": "c1db982963e8fa83",
   "lastOpenFiles": [
+    "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/01. Project Source/springbatchlecture/src/main/resources/application.yml~",
+    "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/01. Project Source/springbatchlecture/target/classes/application.properties",
+    "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/01. Project Source/springbatchlecture/src/main/resources/application.properties",
     "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/02. Technology Study/섹션2. 스프링 배치 시작/3. DB 스키마 생성 및 이해/4. Job 관련 테이블.md",
     "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/02. Technology Study/섹션2. 스프링 배치 시작/3. DB 스키마 생성 및 이해/3. 스키마 생성 설정.md",
     "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/02. Technology Study/섹션2. 스프링 배치 시작/3. DB 스키마 생성 및 이해/2. DB 스키마.md",
@@ -164,8 +167,6 @@
     "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/02. Technology Study/섹션3. 스프링 배치 도메인 이해/4. JobRepository",
     "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/02. Technology Study/섹션3. 스프링 배치 도메인 이해/3. ExecutionContext",
     "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/02. Technology Study/섹션3. 스프링 배치 도메인 이해/2. Step",
-    "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/02. Technology Study/섹션3. 스프링 배치 도메인 이해/1. Job",
-    "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/02. Technology Study/섹션3. 스프링 배치 도메인 이해",
     "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/02. Technology Study/섹션2. 스프링 배치 시작/2. Hello Spring Batch 시작하기/Hello Spring Batch 시작하기.md",
     "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/02. Technology Study/섹션2. 스프링 배치 시작/1. 프로젝트 구성 및 의존성 설정/2. 스프링 배치 초기화 설정 클래스.md",
     "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/02. Technology Study/섹션2. 스프링 배치 시작/1. 프로젝트 구성 및 의존성 설정/1. 스프링 배치 활성화.md",
