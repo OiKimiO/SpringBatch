@@ -5,9 +5,12 @@
 * 
 
 ### 메모
-* There are test failures.
-* Please refer to C:\eGovFrameDev-3.10.0-64bit\gradleWorkspace\Spring Batch\[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch\01. Project Source\springbatchlecture\target\surefire-reports for the individual test results.
-* Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+* SpringbatchlectureApplicationTests.contextLoads » IllegalState Failed to load 
+* Class: SpringbatchlectureApplicationTests(@SpringBootTest)
+	* Method: contextLoads(@Test)
+* SpringbatchlectureApplicationTests class에 contextLoads method 문제 발생
+* 테스트 기능을 사용하지 않지만 에러가 나는 것으로 보아 테스트 주석을 제거한 뒤 실행
+* 문제없이 해결됨
 
 ### 출처(참고문헌)
 -  
