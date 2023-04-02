@@ -18,10 +18,11 @@ public class JobParameterTest implements ApplicationRunner {
     private JobLauncher jobLauncher;
 
     @Autowired
-    private Job job;
+    public Job job;
 
     @Override
     public void run(ApplicationArguments args) throws Exception {
+
         JobParameters jobParameters = new JobParametersBuilder().addString("name","user1")
                                                                 .addLong("seq",2L)
                                                                 .addDate("date",new Date())

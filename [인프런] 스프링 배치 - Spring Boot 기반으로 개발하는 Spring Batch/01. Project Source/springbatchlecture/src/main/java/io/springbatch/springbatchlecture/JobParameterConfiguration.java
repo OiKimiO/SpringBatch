@@ -24,7 +24,7 @@ public class JobParameterConfiguration {
 
     @Bean
     public Job job(){
-        return jobBuilderFactory.get("jobInstance")
+        return jobBuilderFactory.get("job")
                 .start(step1())
                 .next(step2())
                 .build();
@@ -32,7 +32,7 @@ public class JobParameterConfiguration {
 
     @Bean
     public Step step2() {
-        return stepBuilderFactory.get("step5")
+        return stepBuilderFactory.get("step2")
                 .tasklet(new Tasklet() {
                     @Override
                     public RepeatStatus execute(StepContribution contribution, ChunkContext chunkContext) throws Exception {
@@ -46,7 +46,7 @@ public class JobParameterConfiguration {
 
     @Bean
     public Step step1() {
-        return stepBuilderFactory.get("step5")
+        return stepBuilderFactory.get("step1")
                 .tasklet(new Tasklet() {
                     @Override
                     public RepeatStatus execute(StepContribution contribution, ChunkContext chunkContext) throws Exception {
