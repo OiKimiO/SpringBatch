@@ -8,11 +8,18 @@ import org.springframework.stereotype.Component;
 
 
 @Component
-public class CustomTasklet implements Tasklet {
+public class ExecutionContextTasklet3 implements Tasklet {
     @Override
     public RepeatStatus execute(StepContribution contribution,
                                     ChunkContext chunkContext) throws Exception {
-        System.out.println("step2 실행됨");
+        System.out.println("step3 실행");
+
+        Object name = chunkContext.getStepContext().getStepExecution().getJobExecution().getExecutionContext().get("name");
+
+        if(name == null){
+            chunkContext.getStepContext().getStepExecution().getJobExecution().getExecutionContext().put("name","user1");
+            throw new RuntimeException("step3 실패함");
+        }
 
         return RepeatStatus.FINISHED;
     }
