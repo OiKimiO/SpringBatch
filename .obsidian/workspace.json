@@ -13,7 +13,77 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/02. Technology Study/섹션3. 스프링 배치 도메인 이해/2. Step/1. Step/2. Step 기본 구현체.md",
+                "file": "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/03. Trouble Shooting/섹션3. 스프링 배치 도메인 이해/1. JobExecutionListener 찾을 수 없음.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "420115dd947fdf91",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/02. Technology Study/섹션3. 스프링 배치 도메인 이해/5. JobLauncher/1. JobLauncher 기본개념.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e18e3e3623e615c8",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/04. Image/Pasted image 20230329101208.png"
+              }
+            }
+          },
+          {
+            "id": "4fd94ec1d00ce13d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/02. Technology Study/섹션8. 스프링 배치 청크 프로세스 활용 - ItemReader/2. JdbcCursorItemReader.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "43d94ccb3926c782",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/02. Technology Study/섹션8. 스프링 배치 청크 프로세스 활용 - ItemReader/3. JpaCursorItemReader.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e9c451a34099d790",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/03. Trouble Shooting/섹션8. 스프링 배치 청크 프로세스 활용 - ItemReader/2. return 받는 JpaCursorItemReaderBuilder의 제네릭이 선언되지 않아 발생하는 문제.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a190be86cbdb3f52",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/03. Trouble Shooting/섹션8. 스프링 배치 청크 프로세스 활용 - ItemReader/3. 자바,DB column 규칙명 인식으로 인한 에러.md",
                 "mode": "source",
                 "source": false
               }
@@ -44,7 +114,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -110,7 +180,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/03. Trouble Shooting/섹션3. 스프링 배치 도메인 이해/Step1,Step2를 이름으로 등록하면 안되는 문제 발생.md",
+                "file": "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/03. Trouble Shooting/섹션8. 스프링 배치 청크 프로세스 활용 - ItemReader/3. 자바,DB column 규칙명 인식으로 인한 에러.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +197,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/03. Trouble Shooting/섹션3. 스프링 배치 도메인 이해/Step1,Step2를 이름으로 등록하면 안되는 문제 발생.md",
+                "file": "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/03. Trouble Shooting/섹션8. 스프링 배치 청크 프로세스 활용 - ItemReader/3. 자바,DB column 규칙명 인식으로 인한 에러.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +220,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/03. Trouble Shooting/섹션3. 스프링 배치 도메인 이해/Step1,Step2를 이름으로 등록하면 안되는 문제 발생.md"
+                "file": "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/03. Trouble Shooting/섹션8. 스프링 배치 청크 프로세스 활용 - ItemReader/3. 자바,DB column 규칙명 인식으로 인한 에러.md"
               }
             }
           }
@@ -171,23 +241,40 @@
       "templates:템플릿 삽입": false
     }
   },
-  "active": "41f1591f526fdf98",
+  "active": "a190be86cbdb3f52",
   "lastOpenFiles": [
+    "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/03. Trouble Shooting/섹션8. 스프링 배치 청크 프로세스 활용 - ItemReader/2. return 받는 JpaCursorItemReaderBuilder의 제네릭이 선언되지 않아 발생하는 문제.md",
+    "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/03. Trouble Shooting/섹션8. 스프링 배치 청크 프로세스 활용 - ItemReader/1. Web 사용 이후 Job 실행이 안됨.md",
+    "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/03. Trouble Shooting/섹션8. 스프링 배치 청크 프로세스 활용 - ItemReader/3. 자바,DB column 규칙명 인식으로 인한 에러.md",
+    "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/01. Project Source/springbatchlecture/target/classes/io/springbatch/springbatchlecture/JpaCursorConfiguration.class",
+    "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/01. Project Source/springbatchlecture/target/classes/io/springbatch/springbatchlecture/Customer.class",
+    "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/01. Project Source/springbatchlecture/src/main/java/io/springbatch/springbatchlecture/JpaCursorConfiguration.java~",
+    "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/01. Project Source/springbatchlecture/target/classes/io/springbatch/springbatchlecture/JobLauncherController.class",
+    "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/01. Project Source/springbatchlecture/src/main/java/io/springbatch/springbatchlecture/JobLauncherController.java~",
+    "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/01. Project Source/springbatchlecture/target/classes/io/springbatch/springbatchlecture/JdbcCursorConfiguration.class",
+    "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/01. Project Source/springbatchlecture/src/main/java/io/springbatch/springbatchlecture/Customer.java~",
+    "Pasted image 20230407170805.png",
+    "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/01. Project Source/springbatchlecture/target/classes/io/springbatch/springbatchlecture/SpringbatchlectureApplication.class",
+    "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/01. Project Source/springbatchlecture/target/classes/io/springbatch/springbatchlecture/Member.class",
+    "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/01. Project Source/springbatchlecture/target/classes/io/springbatch/springbatchlecture/JobLauncherConfiguration.class",
+    "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/02. Technology Study/섹션8. 스프링 배치 청크 프로세스 활용 - ItemReader/3. JpaCursorItemReader.md",
+    "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/02. Technology Study/섹션8. 스프링 배치 청크 프로세스 활용 - ItemReader/2. JdbcCursorItemReader.md",
+    "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/02. Technology Study/섹션8. 스프링 배치 청크 프로세스 활용 - ItemReader/1. DB-Cursor&Paging 기본개념.md",
+    "Pasted image 20230407161027.png",
+    "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/04. Image/Pasted image 20230407160954.png",
+    "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/04. Image/Pasted image 20230329101208.png",
+    "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/04. Image/Pasted image 20230331094202.png.md",
+    "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/04. Image/Pasted image 20230329113141.png",
+    "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/02. Technology Study/섹션8. 스프링 배치 청크 프로세스 활용 - ItemReader/3. Paging Based 방식.md",
+    "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/02. Technology Study/섹션8. 스프링 배치 청크 프로세스 활용 - ItemReader/2. Cursor Based 처리.md",
+    "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/02. Technology Study/무제 파일.md",
+    "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/02. Technology Study/섹션3. 스프링 배치 도메인 이해/5. JobLauncher/1. JobLauncher 기본개념.md",
+    "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/03. Trouble Shooting/섹션3. 스프링 배치 도메인 이해/1. JobExecutionListener 찾을 수 없음.md",
+    "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/02. Technology Study/섹션3. 스프링 배치 도메인 이해/2. Step/1. Step/2. Step 기본 구현체.md",
+    "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/03. Trouble Shooting/섹션3. 스프링 배치 도메인 이해/Step1,Step2를 이름으로 등록하면 안되는 문제 발생.md",
     "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/03. Trouble Shooting/섹션3. 스프링 배치 도메인 이해/maven 프로젝트 jar 파일 생성이 안됨.md",
     "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/03. Trouble Shooting/섹션3. 스프링 배치 도메인 이해/Job Parameter JAR만들 때 문제 발생.md",
     "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/03. Trouble Shooting/섹션3. 스프링 배치 도메인 이해/2. SQLSyntaxErrorException Table 'spring_batch.system_job_instance' doesn't exist.md",
-    "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/01. Project Source/springbatchlecture/src/main/java/io/springbatch/springbatchlecture/CustomBatchConfigurer.java~",
-    "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/01. Project Source/springbatchlecture/target/classes/io/springbatch/springbatchlecture/JobRepositoryListener.class",
-    "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/01. Project Source/springbatchlecture/target/classes/io/springbatch/springbatchlecture/CustomBatchConfigurer.class",
-    "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/01. Project Source/springbatchlecture/src/main/java/io/springbatch/springbatchlecture/JobRepositoryListener.java~",
-    "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/01. Project Source/springbatchlecture/target/classes/io/springbatch/springbatchlecture/JobRepositoryConfiguration.class",
-    "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/01. Project Source/springbatchlecture/target/classes/io/springbatch/springbatchlecture/StepContributionConfiguration.class",
-    "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/01. Project Source/springbatchlecture/target/classes/io/springbatch/springbatchlecture/StepContributionConfiguration$2.class",
-    "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/01. Project Source/springbatchlecture/target/classes/io/springbatch/springbatchlecture/StepContributionConfiguration$1.class",
-    "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/01. Project Source/springbatchlecture/src/main/java/io/springbatch/springbatchlecture/StepContributionConfiguration.java~",
-    "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/01. Project Source/springbatchlecture/src/main/java/io/springbatch/springbatchlecture/JobRepositoryConfiguration.java~",
-    "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/03. Trouble Shooting/섹션3. 스프링 배치 도메인 이해/1. JobExecutionListener 찾을 수 없음.md",
-    "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/02. Technology Study/섹션3. 스프링 배치 도메인 이해/2. Step/1. Step/2. Step 기본 구현체.md",
     "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/02. Technology Study/섹션3. 스프링 배치 도메인 이해/2. Step/1. Step/1. Step 기본 개념.md",
     "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/02. Technology Study/섹션3. 스프링 배치 도메인 이해/2. Step/3. StepContribution/1. StepContribution 기본개념.md",
     "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/02. Technology Study/섹션3. 스프링 배치 도메인 이해/2. Step/2. StepExecution/2. BATCH_STEP_EXECUTION 테이블과 매핑.md",
@@ -196,21 +283,7 @@
     "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/02. Technology Study/섹션3. 스프링 배치 도메인 이해/1. Job/2. JobExecution/JobExcution 기본개념.md",
     "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/02. Technology Study/섹션3. 스프링 배치 도메인 이해/1. Job/2. JobExecution/무제 파일.md",
     "Spring Batch-Reference/02. Technology Study/구성과 Job실행/고급 메타데이터 사용.md",
-    "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/03. Trouble Shooting/섹션3. 스프링 배치 도메인 이해/Step1,Step2를 이름으로 등록하면 안되는 문제 발생.md",
-    "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/02. Technology Study/섹션2. 스프링 배치 시작/3. DB 스키마 생성 및 이해/5. Step 관련 테이블.md",
-    "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/02. Technology Study/섹션3. 스프링 배치 도메인 이해/1. Job/1. Job/1. Job 기본개념.md",
-    "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/02. Technology Study/섹션3. 스프링 배치 도메인 이해/1. Job/4. JobParameters/3. BATCH_JOB_EXECUTION_PARAM 테이블과 매핑.md",
-    "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/02. Technology Study/섹션3. 스프링 배치 도메인 이해/1. Job/4. JobParameters/2. JobParameter 생성 및 바인딩.md",
-    "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/02. Technology Study/섹션3. 스프링 배치 도메인 이해/1. Job/4. JobParameters/1. JobParameter 기본개념.md",
-    "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/02. Technology Study/섹션3. 스프링 배치 도메인 이해/1. Job/3. JobInstance/2. BATCH_JOB_INSTANCE테이블과 매핑.md",
-    "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/02. Technology Study/섹션3. 스프링 배치 도메인 이해/1. Job/3. JobInstance/1. JobInstance 기본 개념.md",
-    "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/02. Technology Study/섹션3. 스프링 배치 도메인 이해/1. Job/1. Job/3. Job 실행 흐름도.md",
-    "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/02. Technology Study/섹션3. 스프링 배치 도메인 이해/1. Job/1. Job/2. Job 기본 구현체.md",
-    "2023-03-31.md",
-    "Pasted image 20230331094202.png.md",
     "Pasted image 20230331094202.png",
-    "Pasted image 20230329113141.png",
-    "Pasted image 20230329101208.png",
     "Spring Batch-Reference/04. Image Path/Pasted image 20230320092358.png",
     "Spring Batch-Reference/04. Image Path/Pasted image 20230321143948.png",
     "Spring Batch-Reference/04. Image Path/Pasted image 20230321091922.png",
