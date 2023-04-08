@@ -15,6 +15,8 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.Date;
+
 @RestController
 @RequiredArgsConstructor
 public class JobLauncherController {
@@ -25,7 +27,9 @@ public class JobLauncherController {
    @PostMapping("/batch")
     public String launch(@RequestBody Customer customer) throws JobInstanceAlreadyCompleteException, JobExecutionAlreadyRunningException, JobParametersInvalidException, JobRestartException {
 
-        JobParameters jobParameters = new JobParametersBuilder().toJobParameters();
+        JobParameters jobParameters = new JobParametersBuilder()
+                .addDate("date",new Date())
+                .toJobParameters();
         // 비동기방식으로 진행
        try {
            SimpleJobLauncher jobLauncher = (SimpleJobLauncher) basicBatchConfigurer.getJobLauncher();
