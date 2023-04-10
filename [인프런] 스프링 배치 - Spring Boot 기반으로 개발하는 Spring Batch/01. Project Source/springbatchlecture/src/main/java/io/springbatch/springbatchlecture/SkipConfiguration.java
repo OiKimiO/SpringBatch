@@ -9,6 +9,7 @@ import org.springframework.batch.core.step.skip.LimitCheckingItemSkipPolicy;
 import org.springframework.batch.core.step.skip.SkipPolicy;
 import org.springframework.batch.item.*;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -36,7 +37,7 @@ public class SkipConfiguration {
                     public String read() throws Exception, UnexpectedInputException, ParseException, NonTransientResourceException {
                         i++;
                         if(i == 3){
-                            throw new NoSkippableException("skip");
+                            throw new SkippableException("skip");
                         }
                         System.out.println("ItemReader : " + i);
                         return i > 20 ? null: String.valueOf(i);
@@ -46,9 +47,10 @@ public class SkipConfiguration {
                 .writer(itemWriter())
                 .faultTolerant()
                 // .skipPolicy(new NeverSkipItemSkipPolicy())
-                .noSkip(NoSkippableException.class)
+                // .noSkip(NoSkippableException.class)
                 .skipLimit(2)
-                // .skip(SkippableException.class) // SkippableException.class가 발생하면 skip할 것
+                .skip(SkippableException.class) // SkippableException.class가 발생하면 skip할 것
+                .skip(IllegalAccessException.class)
                 // .skipLimit(3) // skip이 N번만 나면 오류가 나지 않게 함
                 .build();
     }

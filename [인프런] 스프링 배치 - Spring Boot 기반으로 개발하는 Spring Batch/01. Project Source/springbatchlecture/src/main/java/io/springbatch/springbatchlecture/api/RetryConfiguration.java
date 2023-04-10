@@ -1,5 +1,7 @@
-package io.springbatch.springbatchlecture;
+/*
+package io.springbatch.springbatchlecture.api;
 
+import io.springbatch.springbatchlecture.RetryableExceptixon;
 import lombok.RequiredArgsConstructor;
 import org.springframework.batch.core.Job;
 import org.springframework.batch.core.Step;
@@ -10,12 +12,16 @@ import org.springframework.batch.item.*;
 import org.springframework.batch.item.support.ListItemReader;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.retry.RetryPolicy;
+import org.springframework.retry.policy.SimpleRetryPolicy;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
-@Configuration
 @RequiredArgsConstructor
+@Configuration
 public class RetryConfiguration {
 
     private final JobBuilderFactory jobBuilderFactory;
@@ -23,7 +29,7 @@ public class RetryConfiguration {
 
     @Bean
     public Job job() {
-        return jobBuilderFactory.get("job_10")
+        return jobBuilderFactory.get("job_16")
                 .incrementer(new RunIdIncrementer())
                 .start(step1())
                 .build();
@@ -37,8 +43,11 @@ public class RetryConfiguration {
                                  .processor(processor())
                                  .writer(items -> items.forEach(item-> System.out.println(item)))
                                  .faultTolerant()
+                                 .skip(RetryableExceptixon.class)
+                                 .skipLimit(2)
                                  .retry(RetryableExceptixon.class)
                                  .retryLimit(2)
+                                 .retryPolicy(retryPolicy())
                                  .build();
     }
 
@@ -55,4 +64,13 @@ public class RetryConfiguration {
         }
         return new ListItemReader<>(items);
     }
-}
+
+    @Bean
+    public RetryPolicy retryPolicy(){
+        Map<Class<? extends Throwable>,Boolean> exceptionClass = new HashMap();
+        exceptionClass.put(RetryableExceptixon.class,true);
+
+        SimpleRetryPolicy simpleRetryPolicy = new SimpleRetryPolicy(2, exceptionClass);
+        return simpleRetryPolicy;
+    }
+}*/

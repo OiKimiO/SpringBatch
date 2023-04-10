@@ -9,10 +9,9 @@ public class SkipItemProcessor implements ItemProcessor<String,String> {
 
     @Override
     public String process(String item) throws Exception {
-
         if(item.equals("6") || item.equals("7")){
             System.out.println("ItemProcess : " + item);
-            throw new SkippableException("Process failed cnt : =" + cnt);
+            throw new IllegalArgumentException("Process failed cnt : =" + cnt);
         }else{
             System.out.println("ItemProcess : " + item);
             return String.valueOf(Integer.valueOf(item) * -1);
