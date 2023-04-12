@@ -11,8 +11,12 @@
             "id": "f5daf8485c858f08",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/03. Trouble Shooting/섹션14. 스프링 배치 테스트 및 운영/무제 파일.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/03. Trouble Shooting/섹션14. 스프링 배치 테스트 및 운영/무제 파일.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/03. Trouble Shooting/섹션14. 스프링 배치 테스트 및 운영/무제 파일.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/03. Trouble Shooting/섹션14. 스프링 배치 테스트 및 운영/무제 파일.md"
+              }
             }
           }
         ]
@@ -138,14 +146,21 @@
       "templates:템플릿 삽입": false
     }
   },
-  "active": "c1db982963e8fa83",
+  "active": "f5daf8485c858f08",
   "lastOpenFiles": [
+    "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/01. Project Source/springbatchlecture/target/classes/io/springbatch/springbatchlecture/JobOperationConfiguration.class",
+    "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/01. Project Source/springbatchlecture/target/classes/io/springbatch/springbatchlecture/JobController.class",
+    "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/01. Project Source/springbatchlecture/src/main/java/io/springbatch/springbatchlecture/JobController.java",
+    "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/01. Project Source/springbatchlecture/target/classes/io/springbatch/springbatchlecture/JobController1.class",
+    "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/03. Trouble Shooting/섹션14. 스프링 배치 테스트 및 운영/1. 스프링 배치를 활용한 데이터 입력시 커밋 카운트가 0인 문제 - 테스트.md",
+    "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/03. Trouble Shooting/섹션14. 스프링 배치 테스트 및 운영/무제 파일.md",
+    "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/01. Project Source/springbatchlecture/src/main/java/io/springbatch/springbatchlecture/JobController1.java",
+    "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/01. Project Source/springbatchlecture/target/classes/io/springbatch/springbatchlecture/JobInfo.class",
+    "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/01. Project Source/springbatchlecture/src/main/java/io/springbatch/springbatchlecture/JobController.java~",
+    "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/01. Project Source/springbatchlecture/src/main/java/io/springbatch/springbatchlecture/JobInfo.java",
+    "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/01. Project Source/springbatchlecture/src/main/java/io/springbatch/springbatchlecture/JobOperationConfiguration.java",
     "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/01. Project Source/springbatchlecture/src/main/java/io/springbatch/springbatchlecture/Customer.java",
     "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/01. Project Source/springbatchlecture/src/main/java/io/springbatch/springbatchlecture/SimpleJobConfiguration.java",
-    "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/01. Project Source/springbatchlecture/src/test/resources/application.yml",
-    "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/01. Project Source/springbatchlecture/src/test/resources",
-    "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/01. Project Source/springbatchlecture/src/test/java/io/springbatch/springbatchlecture/TestBatchConfig.java",
-    "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/01. Project Source/springbatchlecture/src/test/java/io/springbatch/springbatchlecture/SimpleJobTest.java",
     "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/04. Image/Pasted image 20230411171400.png",
     "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/04. Image/Pasted image 20230411171207.png",
     "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/04. Image/Pasted image 20230411170555.png",
@@ -153,19 +168,13 @@
     "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/04. Image/Pasted image 20230411170214.png",
     "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/04. Image/Pasted image 20230411164754.png",
     "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/04. Image/Pasted image 20230411164723.png",
-    "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/03. Trouble Shooting/섹션14. 스프링 배치 테스트 및 운영/1. 스프링 배치를 활용한 데이터 입력시 커밋 카운트가 0인 문제 - 테스트.md",
-    "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/03. Trouble Shooting/섹션14. 스프링 배치 테스트 및 운영",
     "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/02. Technology Study/섹션14. 스프링 배치 테스트 및 운영/2. JobExplorer, JobRegister, JobOperator.md",
     "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/02. Technology Study/섹션14. 스프링 배치 테스트 및 운영/1. Spring Batch Test 설정 및 사용방법.md",
-    "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/02. Technology Study/섹션14. 스프링 배치 테스트 및 운영",
     "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/04. Image/Pasted image 20230410212315.png",
     "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/04. Image/Pasted image 20230410212251.png",
     "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/04. Image/Pasted image 20230410212226.png",
     "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/02. Technology Study/섹션11. 스프링 배치 반복 및 오류 제어/5. Skip&Retry 아키텍처.md",
     "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/02. Technology Study/섹션11. 스프링 배치 반복 및 오류 제어/4. Retry.md",
-    "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/01. Project Source/springbatchlecture/src/main/resources/application.yml",
-    "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/01. Project Source/springbatchlecture/src/main/java/io/springbatch/springbatchlecture/SkipItemProcessor.java",
-    "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/01. Project Source/springbatchlecture/src/main/java/io/springbatch/springbatchlecture/SkipConfiguration.java",
     "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/03. Trouble Shooting/섹션8. 스프링 배치 청크 프로세스 활용 - ItemReader/6. 조회시 제약조건 등록으로 인한 오류.md",
     "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/03. Trouble Shooting/섹션9. 스프링 배치 청크 프로세스 활용 - ItemWriter/1. JdbcBatchItemWriter를 사용하며 발생한 에러.md",
     "Template/zettelkasten.md",
@@ -184,7 +193,6 @@
     "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/02. Technology Study/섹션8. 스프링 배치 청크 프로세스 활용 - ItemReader/1. DB-Cursor&Paging 기본개념.md",
     "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/02. Technology Study/섹션8. 스프링 배치 청크 프로세스 활용 - ItemReader/2. JdbcCursorItemReader.md",
     "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/02. Technology Study/섹션9. 스프링 배치 청크 프로세스 활용 - ItemWriter/1. DB - JdbcBatchItemWriter.md",
-    "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/02. Technology Study/섹션9. 스프링 배치 청크 프로세스 활용 - ItemWriter/2. DB - JpaItemWriter.md",
-    "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/02. Technology Study/섹션10. 스프링 배치 청크 프로세스 활용 - ItemProcessor/2. ClassifierCompositeItemProcessor.md"
+    "[인프런] 스프링 배치 - Spring Boot 기반으로 개발하는 Spring Batch/02. Technology Study/섹션9. 스프링 배치 청크 프로세스 활용 - ItemWriter/2. DB - JpaItemWriter.md"
   ]
 }
